@@ -1,0 +1,66 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: lightblue;
+    padding: 10px;
+    margin: auto;
+}
+.main{
+   margin-left: 300px;
+}
+figcaption{
+    font-weight: 700;
+    color: purple;
+    font-size: 50px;
+
+}
+input{
+    border: none;
+    color: purple;
+}
+i{
+    color: purple;
+    background-color: none;
+    padding-bottom: 2px;
+    transition: all 0.3s ease;
+}
+i:hover{
+    color: green;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.addItems{
+   margin-left: 40px;
+}
+
+.far{
+    background-color: lightblue;
+    margin-left: 30px;
+    color: red;
+}
+.eachItem{
+    margin-left: 40px;
+    display: flex;
+    color: purple;
+    padding-top: 10px;
+}
+.btn{
+    margin-left: 80px;
+    border-radius: 26px;
+    border: 2px solid purple;
+    background-color: lightblue;
+    padding: 10px;
+    font-weight: 700;
+    color: crimson;
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    margin-left: 80px;
+    border-radius: 26px;
+    border: 2px solid crimson;
+    background-color: white;
+    padding: 10px;
+    font-weight: 700;
+    color: purple;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
